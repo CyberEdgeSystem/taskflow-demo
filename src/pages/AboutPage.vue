@@ -1,13 +1,11 @@
 <template>
   <f7-page name="about">
-
     <f7-navbar
       title="Про TaskFlow"
       back-link="Назад"
     />
 
     <div class="app-content">
-
       <div class="welcome-block">
         <h1>TaskFlow</h1>
 
@@ -17,23 +15,17 @@
       </div>
 
       <div class="info-card">
-        <h2>Технології</h2>
+        <h2>Використані технології</h2>
 
-        <p>Vue 3 — компоненти та реактивність</p>
-        <p>Framework7 — мобільний інтерфейс</p>
-        <p>Vite — інструмент збірки</p>
+        <p>Vue 3 — реактивний інтерфейс</p>
+        <p>Framework7 — мобільні компоненти</p>
+        <p>Vite — середовище розробки</p>
         <p>PWA — встановлення та офлайн-режим</p>
       </div>
 
-      <f7-button
-        fill
-        large
-        href="/"
-      >
+      <f7-button large fill href="/">
         На головну
       </f7-button>
-
     </div>
-
   </f7-page>
 </template>

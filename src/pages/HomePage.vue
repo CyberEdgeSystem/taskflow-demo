@@ -1,13 +1,10 @@
 <template>
   <f7-page name="home">
-
     <f7-navbar title="TaskFlow" />
 
     <div class="app-content">
-
       <div class="welcome-block">
         <h1>Мої завдання</h1>
-
         <p>
           Керуйте завданнями та відстежуйте
           їх виконання.
@@ -25,15 +22,12 @@
           </div>
         </div>
 
-        <div class="summary-icon">
-          ✓
-        </div>
+        <div class="summary-icon">✓</div>
       </div>
 
       <div class="section-header">
         <h2>Список завдань</h2>
-
-        <span>{{ tasks.length }} завдання</span>
+        <span>{{ tasks.length }} завдань</span>
       </div>
 
       <div class="task-list">
@@ -52,9 +46,7 @@
       >
         Про застосунок
       </f7-button>
-
     </div>
-
   </f7-page>
 </template>
 

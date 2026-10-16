@@ -8,5 +8,5 @@ for (const size of sizes) {
     .png()
     .toFile(`public/icons/icon-${size}.png`);
 
-  console.log(`Створено іконку ${size}x${size}`);
+  console.log(`Generated ${size}x${size}`);
 }

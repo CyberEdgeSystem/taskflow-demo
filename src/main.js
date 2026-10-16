@@ -10,14 +10,10 @@ import './css/app.css';
 
 import App from './App.vue';
 
-// Підключення Framework7 до Vue
 Framework7.use(Framework7Vue);
 
-// Створення застосунку
 const app = createApp(App);
 
-// Реєстрація компонентів Framework7
 registerComponents(app);
 
-// Запуск застосунку
 app.mount('#app');
