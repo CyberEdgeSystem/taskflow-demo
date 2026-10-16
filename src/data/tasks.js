@@ -1,0 +1,51 @@
+export const tasks = [
+  {
+    id: 1,
+    title: 'Створити структуру проєкту',
+    description: 'Підготувати каталоги та файли TaskFlow',
+    status: 'done',
+    priority: 'high',
+  },
+  {
+    id: 2,
+    title: 'Налаштувати Framework7',
+    description: 'Підключити компоненти інтерфейсу',
+    status: 'progress',
+    priority: 'medium',
+  },
+  {
+    id: 3,
+    title: 'Реалізувати картку завдання',
+    description: 'Створити компонент TaskCard',
+    status: 'todo',
+    priority: 'medium',
+  },
+  {
+    id: 4,
+    title: 'Перевірити роботу PWA',
+    description: 'Зібрати та встановити застосунок',
+    status: 'todo',
+    priority: 'low',
+  },
+  {
+    id: 5,
+    title: 'Вивчити основи Vue 3',
+    description: 'Ознайомитися з компонентами та директивами',
+    status: 'done',
+    priority: 'high',
+  },
+  {
+    id: 6,
+    title: 'Створити власний компонент',
+    description: 'Розробити компонент для відображення інформації',
+    status: 'done',
+    priority: 'high',
+  },
+  {
+    id: 7,
+    title: 'Оформити звіт',
+    description: 'Підготувати результати практичної роботи',
+    status: 'todo',
+    priority: 'low',
+  },
+];
